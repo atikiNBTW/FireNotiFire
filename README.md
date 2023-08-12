@@ -1,2 +1,3 @@
 # FireNotiFire
-This mod can save you from dying from fire/lave :) or any other source.
+
+### Written in about an hour because I died of fire two times in a row, so don't expect much from it!
