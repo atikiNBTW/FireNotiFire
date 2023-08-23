@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "firenotifier",
+  "version": "${version}",
+  "name": "FireNotiFier",
+  "description": "This mod can save you from dying from fire/lave :) or any other source.",
+  "authors": ["atikiNBTW"],
+  "contact": {
+    "repo": "https://github.com/atikinbtw/FireNotiFire"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.atikinbtw.firenotifier.FireNotifier"
+    ]
+  },
+  "mixins": [
+    "firenotifier.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "java": ">=17"
+  }
+}

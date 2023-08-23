@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.atikinbtw.firenotifier.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "OnFireMessageMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
